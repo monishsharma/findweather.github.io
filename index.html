@@ -1,0 +1,57 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>Image Checker</title>
+	<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
+	<link rel="stylesheet" type="text/css" href="app.css">
+
+	
+</head>
+<body>
+
+	<div class="topNav">
+		<center><h1 style="color: white; position: relative;">Find the weather of your city</h1></center>
+	</div>
+
+	<div class="main">
+		<input id="cityName" class="textArea" type="text" name="" placeholder="Search the city....">
+		<button id="search" class="submit">Search</button>
+	</div>
+
+	<div class="card">
+  <span class="city"></span>
+    <ul class="menu">
+      <li></li>
+      <li></li>
+      <li></li>
+    </ul>
+    <br>
+  <img src ="" id="sun" width="100%" height="100%">
+  <span class="temp"></span>
+  <span>
+    <ul class="variations">
+      <li id="main"></li>
+    </ul>
+  </span>
+  <div class="forecast clear">
+    <div class="day tue">TUE 
+      <br> <span class="TUE"></span> <br> <span class="highTemp1"></span> <br> <span class="lowTemp1"></span>
+    </div>
+    <div class="day wed">WED
+       <br> <span class="WED"></span> <br> <span class="highTemp2"></span> <br> <span class="lowTemp2"></span>
+    </div>
+    <div class="day thu">THU 
+      <br> <span class="THU"></span> <br> <span class="highTemp3"></span> <br> <span class="lowTemp3"></span>
+    </div>
+    <div class="day fri">FRI
+      <br> <span class="FRI"></span> <br> <span class="highTemp4"></span> <br> <span class="lowTemp4"></span>
+    </div>
+  </div>
+</div>
+
+
+
+
+<script src="weather.js"></script>
+</body>
+</html>	
